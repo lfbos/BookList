@@ -68,6 +68,11 @@ module.exports = {
 			}
 		]
 	},
+	cssLoader: {
+		includePaths: [
+			path.resolve(__dirname, './node-modules/bootstrap/dist/css')
+		]
+	},
 	devtool: process.env.NODE_ENV === 'production'
 		? undefined
 		: 'eval'

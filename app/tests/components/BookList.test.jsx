@@ -4,10 +4,10 @@ import TestUtils from 'react-addons-test-utils';
 import expect from 'expect';
 
 import * as actions from 'actions';
-import {App} from 'App';
+import {BookList} from 'App';
 
-describe('App', () => {
+describe('BookList', () => {
  it('should exist', () => {
-  expect(App).toExist();
+  expect(BookList).toExist();
  });
 });

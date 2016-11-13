@@ -9,7 +9,7 @@ import router from 'app/router/';
 const store = configure();
 
 // App css
-require('style!css!sass!applicationStyles')
+require('style!css!sass!applicationStyles');
 
 ReactDOM.render(
   <Provider store={store}>
